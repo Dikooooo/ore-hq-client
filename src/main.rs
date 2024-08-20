@@ -28,7 +28,7 @@ struct Args {
         long,
         value_name = "KEYPAIR_PATH",
         help = "Filepath to keypair to use",
-        default_value = "home/userland/.config/solana/id.json",
+        default_value = "/home/userland/.config/solana/id.json",
     )]
     keypair: String,
 
